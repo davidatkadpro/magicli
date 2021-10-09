@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/davidatkadpro/react_apps/static/css/main.7c439040.chunk.css",
+    "main.js": "/davidatkadpro/react_apps/static/js/main.2efe79d5.chunk.js",
+    "main.js.map": "/davidatkadpro/react_apps/static/js/main.2efe79d5.chunk.js.map",
+    "runtime-main.js": "/davidatkadpro/react_apps/static/js/runtime-main.d611c590.js",
+    "runtime-main.js.map": "/davidatkadpro/react_apps/static/js/runtime-main.d611c590.js.map",
+    "static/css/2.54f41c4d.chunk.css": "/davidatkadpro/react_apps/static/css/2.54f41c4d.chunk.css",
+    "static/js/2.e9f16085.chunk.js": "/davidatkadpro/react_apps/static/js/2.e9f16085.chunk.js",
+    "static/js/2.e9f16085.chunk.js.map": "/davidatkadpro/react_apps/static/js/2.e9f16085.chunk.js.map",
+    "index.html": "/davidatkadpro/react_apps/index.html",
+    "static/css/2.54f41c4d.chunk.css.map": "/davidatkadpro/react_apps/static/css/2.54f41c4d.chunk.css.map",
+    "static/css/main.7c439040.chunk.css.map": "/davidatkadpro/react_apps/static/css/main.7c439040.chunk.css.map",
+    "static/js/2.e9f16085.chunk.js.LICENSE.txt": "/davidatkadpro/react_apps/static/js/2.e9f16085.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d611c590.js",
+    "static/css/2.54f41c4d.chunk.css",
+    "static/js/2.e9f16085.chunk.js",
+    "static/css/main.7c439040.chunk.css",
+    "static/js/main.2efe79d5.chunk.js"
+  ]
+}

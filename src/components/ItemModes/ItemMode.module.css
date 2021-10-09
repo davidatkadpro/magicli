@@ -1,0 +1,105 @@
+.modeWrap{
+    background-color: #908b8c47;
+    color: var(--dark1);
+    padding: 0.25rem;
+    display: inline-block;
+    border-radius: 1.2rem;
+    margin: 0 0 0.5rem 0;
+}
+.modeMain .modeWrap{
+    background-color: var(--light2);
+}
+.iconClose {
+    color: var(--light2);
+    font-size: 2rem;
+    cursor: pointer;
+    display: inline;
+    line-height: 1.5rem; 
+    vertical-align: text-bottom;
+    margin: 0.25rem 0.25rem; 
+}
+.heading {
+    display: inline-block;
+}
+
+.countValue {
+    font-size: 1.2rem;
+    display: inline-block;
+    line-height: 1.2rem; 
+    height: 1.5rem;   
+    vertical-align: text-bottom;
+}
+
+.iconCount {
+    font-size: 1.2rem; 
+    padding: 0.25rem 0.25rem; 
+    cursor: pointer;
+}
+.dateWrap>span {
+    line-height: 2.25rem;
+    font-size: 1.2rem !important;
+    padding: 0.25rem 0.75rem!important;
+}
+.dateWrap { 
+    background-color: transparent !important;
+    margin: 0 0 0.8rem 0 !important;
+    display: inline-block;
+    padding: 0;
+}
+
+.totalWrap {
+    background-color: transparent !important;
+    margin: 0 0 0.8rem 0 !important;
+    padding: 0;
+    display: inline-block;
+}
+
+.modeInput {
+    background-color: var(--dark3) !important;
+    border: 1px solid var(--dark3) !important;
+    border-radius: 0.25rem !important;
+    margin: 0 0 0 0 !important;
+    font-size: 1.2rem !important;
+    padding: 0.25rem 0.75rem!important;
+    max-width: 200px;
+    width: calc(100% - 1.5rem)!important;
+}
+.totalWrap .modeInput {
+    margin-bottom: 0.75rem !important;
+    margin-right: 0.5rem !important;
+    max-width: 94px;
+}
+.modeInput:focus, .modeInput:active {
+    background-color: var(--dark3) !important;
+    border: 1px solid var(--primary) !important;
+    box-shadow: none !important;
+}
+.modeContainer {
+    float: right;
+}
+.headingChecklist {
+    color: var(--light2);
+}
+
+.modeMain.modeContainer {
+    border-bottom: 1px solid var(--dark1);
+    display: block;
+    float:none;
+}
+
+.listTotals {
+    line-height: 2.25rem;
+    font-size: 1.2rem !important;
+    padding: 0.25rem 0.75rem!important;
+}
+
+.modeMain .listTotals {
+    background-color: var(--dark3) !important;
+    border-radius: 0.25rem !important;
+    margin: 0 !important;
+    font-size: 1.2rem !important;
+    line-height: 3rem;
+    padding: 0.25rem 0.75rem!important;
+    display: inline-block;
+    width: 100px;
+}

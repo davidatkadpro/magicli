@@ -1,0 +1,27 @@
+nav {
+    background-color: var(--primary);
+    color: var(--primary-text);
+}
+nav *, nav ul a {
+    color: var(--primary-text);
+}
+.brand {
+    font-size: 1rem;
+}
+.brand span {
+    line-height: 1;
+}
+.brand i {
+    margin-right: 0.5rem !important;
+}
+.sidenav {
+    background-color: #795962;
+    transition: all 0.5s ease;
+    top: 56px;
+}
+.sidenav a {
+    color: var(--light1) !important;
+}
+.sidenav i {
+    padding: 1rem !important;
+}

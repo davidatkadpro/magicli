@@ -1,0 +1,55 @@
+.listItems{
+    font-size: 1.2rem;
+    background-color: var(--dark3);
+    padding: 0.5rem 0.75rem!important;
+    display: inline-block;
+    border-radius: 0.25rem;
+    margin-bottom: 0.25rem!important;
+}
+.card li, .card ul{
+    position: relative;
+    width: 90%;
+    display: inline-block;
+}
+.card ul{
+    width: 90%;
+    display: inline-block;
+}
+.card a{
+    width: max-content;
+    display: block;
+}
+.card {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    padding: 0.75rem!important;   
+    display: block;
+}
+.card>li:nth-child(2) {
+    width: calc(100% - 5.5rem);
+}
+
+.link {
+    border-left: 1px solid var(--light2); 
+    border-bottom: 1px solid var(--light2); 
+    position: absolute;
+    left: -1rem;
+    top: 0;
+    width: 0.75rem;
+    height: 1.5rem;
+}
+.link2 {
+    border-left: 1px solid var(--light2); 
+    height: calc(100% + 1.5rem);
+    position: absolute;
+    left: -1rem;
+    top: 0;
+}
+ul li:last-child>.link2{
+    border-left: none; 
+}
+.button {
+    z-index: 999;
+}

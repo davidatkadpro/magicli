@@ -1,0 +1,174 @@
+.item {
+    color: transparent;
+}
+.item:hover {
+    color: var(--light1);
+}
+.heading {
+    display: inline-block;
+}
+.heading a{
+    margin: 0;
+    padding: 0.5rem 0;
+}
+.icon {
+    margin: 0.25rem;
+    font-size: 2.14rem;
+    cursor: pointer;
+}
+.iconSmall {
+    color:transparent;
+    margin: 0.25rem;
+    font-size: 1.65rem;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.warp {
+    position: relative;
+}
+
+.modal {
+    position: absolute;
+    z-index: 999;
+}
+.underlay {
+    position:fixed;
+    z-index: 100;
+    background-color: #0000007e;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    
+}
+.editOptions {
+    position: absolute;
+    z-index: 999;
+    right: -60px;
+    top: 0;
+    font-size: 1.2rem;
+}
+.editOptions li {
+    background-color: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    margin-bottom: 0.5rem;
+    border-radius: 0.75rem;
+    padding: 0.5rem 0.5rem;
+    cursor: pointer;
+}
+.childItem {
+    background-color: var(--dark3) !important;
+    margin-bottom: 0.5rem !important;
+}
+.childItem:hover .iconSmall {
+    color: var(--light1);
+}
+.collapsibleBody {
+    background-color: var(--dark1) !important;
+    border-bottom: none;
+    padding: 0!important;
+    margin-bottom: 0.5rem !important;
+}
+.inputSmall {
+    background-color: var(--dark3) !important;
+    border: 1px solid var(--secondary) !important;
+    border-radius: 0.25rem !important;
+    margin: 0 0 0 0 !important;
+    font-size: 1.2rem !important;
+    padding: 0.25rem 0.75rem!important;
+    width: calc(100% - 1.5rem)!important;
+
+}
+
+.iconClose {
+    color: var(--light2);
+    font-size: 3rem;
+    cursor: pointer;
+}
+.menuWrap {
+    position: absolute;
+    z-index: 999;
+    top: 4.25rem;
+    right: 0;
+    width: 60%;
+    background-color: var(--dark3);
+    font-size: 1.4rem;
+    border-radius: 0.25rem;
+}
+.menuWrap ul {
+    margin: 0;
+}
+.menuWrap li {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--dark2);
+    cursor: pointer;
+}
+.menuWrap li:last-child {
+    border-bottom: none;
+}
+.menuWrap li:first-child {
+    padding-right: 1rem;
+    text-align: right;
+}
+.scrollList {
+    background-color: #795962;
+    padding: 0!important;
+    overflow-x:hidden;
+    overflow-y:auto;
+    height: 100%;
+    max-height: 16rem;
+}
+.scrollList li{
+    padding-left: 2.5rem;
+    text-align: left!important;
+}
+.menuWrap li:first-child i {
+    color: var(--light2);
+}
+
+.editWrap {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 0.75rem;
+    width: calc(100% - 0.75rem);
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+.editWrap button {
+    margin-top: 0.25rem;
+}
+.editInput {
+    z-index: 999;
+    background-color: var(--dark3) !important;
+    border: 1px solid var(--dark3) !important;
+    border-radius: 0.25rem !important;
+    margin: 0 0 0 0 !important;
+    margin-bottom: 0.25rem !important;
+    font-size: 1.2rem !important;
+    padding: 0.25rem 0.75rem!important;
+    width: calc(100% - 1rem)!important;
+}
+.inputSmall:focus, .inputSmall:active,
+.inputLarge:focus, .inputLarge:active,
+.editInput:focus, .editInput:active  {
+    border: 1px solid var(--primary) !important;
+    box-shadow: none !important;
+}
+.rows {
+    margin-top: 20px!important;
+}
+.cols {
+    padding: 0!important;
+    margin-bottom: 0.5rem !important;
+}
+.cols .cardPanel{
+    margin-top: 0 !important;
+}
+@media only screen and (min-width: 601px) {
+    .cols {
+        padding: 0 0.75rem!important;
+    }
+}
